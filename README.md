@@ -1,4 +1,4 @@
-# Project Name
+# Robotic Brain Application
 
 ## Description
 This project is a Python-based AI agentic application designed to process user inputs (such as text or images) and generate actionable plans. It integrates multiple components, including data management, AI-powered agents, and a task execution manager to efficiently handle commands and automate tasks.
