@@ -1,0 +1,134 @@
+{
+    "aisles": {
+      "aisle_1": {
+        "location": "north_wing",
+        "shelves": {
+          "left": [
+            {
+              "shelf_number": 1,
+              "category": "Beverages",
+              "subcategories": {
+                "Soft Drinks": [
+                  {"product": "Cola", "stock": 50, "reorder_threshold": 10},
+                  {"product": "Lemonade", "stock": 30, "reorder_threshold": 15}
+                ],
+                "Juices": [
+                  {"product": "Orange Juice", "stock": 40, "reorder_threshold": 20},
+                  {"product": "Apple Juice", "stock": 25, "reorder_threshold": 10}
+                ]
+              }
+            },
+            {
+              "shelf_number": 2,
+              "category": "Snacks",
+              "subcategories": {
+                "Chips": [
+                  {"product": "Potato Chips", "stock": 60, "reorder_threshold": 20},
+                  {"product": "Tortilla Chips", "stock": 45, "reorder_threshold": 15}
+                ],
+                "Nuts": [
+                  {"product": "Peanuts", "stock": 35, "reorder_threshold": 10},
+                  {"product": "Almonds", "stock": 20, "reorder_threshold": 5}
+                ]
+              }
+            }
+          ],
+          "right": [
+            {
+              "shelf_number": 1,
+              "category": "Canned Goods",
+              "subcategories": {
+                "Vegetables": [
+                  {"product": "Canned Corn", "stock": 70, "reorder_threshold": 25},
+                  {"product": "Canned Peas", "stock": 55, "reorder_threshold": 20}
+                ],
+                "Soups": [
+                  {"product": "Tomato Soup", "stock": 40, "reorder_threshold": 15},
+                  {"product": "Chicken Noodle Soup", "stock": 30, "reorder_threshold": 10}
+                ]
+              }
+            },
+            {
+              "shelf_number": 2,
+              "category": "Baking",
+              "subcategories": {
+                "Flour": [
+                  {"product": "All-Purpose Flour", "stock": 25, "reorder_threshold": 10},
+                  {"product": "Whole Wheat Flour", "stock": 20, "reorder_threshold": 8}
+                ],
+                "Sugar": [
+                  {"product": "Granulated Sugar", "stock": 30, "reorder_threshold": 10},
+                  {"product": "Brown Sugar", "stock": 15, "reorder_threshold": 5}
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "aisle_5": {
+        "location": "south_wing",
+        "shelves": {
+          "left": [
+            {
+              "shelf_number": 1,
+              "category": "Dairy",
+              "subcategories": {
+                "Milk": [
+                  {"product": "Whole Milk", "stock": 50, "reorder_threshold": 20},
+                  {"product": "Skim Milk", "stock": 40, "reorder_threshold": 15}
+                ],
+                "Cheese": [
+                  {"product": "Cheddar Cheese", "stock": 30, "reorder_threshold": 10},
+                  {"product": "Mozzarella Cheese", "stock": 25, "reorder_threshold": 8}
+                ]
+              }
+            },
+            {
+              "shelf_number": 2,
+              "category": "Frozen Foods",
+              "subcategories": {
+                "Pizza": [
+                  {"product": "Pepperoni Pizza", "stock": 20, "reorder_threshold": 5},
+                  {"product": "Cheese Pizza", "stock": 15, "reorder_threshold": 5}
+                ],
+                "Ice Cream": [
+                  {"product": "Vanilla Ice Cream", "stock": 30, "reorder_threshold": 10},
+                  {"product": "Chocolate Ice Cream", "stock": 25, "reorder_threshold": 8}
+                ]
+              }
+            }
+          ],
+          "right": [
+            {
+              "shelf_number": 1,
+              "category": "Personal Care",
+              "subcategories": {
+                "Shampoo": [
+                  {"product": "Hydrating Shampoo", "stock": 40, "reorder_threshold": 15},
+                  {"product": "Volumizing Shampoo", "stock": 35, "reorder_threshold": 10}
+                ],
+                "Soap": [
+                  {"product": "Bar Soap", "stock": 50, "reorder_threshold": 20},
+                  {"product": "Liquid Soap", "stock": 45, "reorder_threshold": 15}
+                ]
+              }
+            },
+            {
+              "shelf_number": 2,
+              "category": "Cleaning Supplies",
+              "subcategories": {
+                "Detergents": [
+                  {"product": "Laundry Detergent", "stock": 30, "reorder_threshold": 10},
+                  {"product": "Dish Detergent", "stock": 25, "reorder_threshold": 8}
+                ],
+                "Disinfectants": [
+                  {"product": "Bleach", "stock": 20, "reorder_threshold": 5},
+                  {"product": "Surface Cleaner", "stock": 15, "reorder_threshold": 5}
+                ]
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
