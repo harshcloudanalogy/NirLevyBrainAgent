@@ -1,14 +1,14 @@
-# Project Name
+# Robotic Brain Application
 
 ## Description
-This project is a Python-based application designed to process user inputs (such as text or images) and generate actionable plans. It integrates multiple components, including data management, AI-powered agents, and a task execution manager to efficiently handle commands and automate tasks.
+This project is a Python-based AI agentic application designed to process user inputs (such as text or images) and generate actionable plans. It integrates multiple components, including data management, AI-powered agents, and a task execution manager to efficiently handle commands and automate tasks.
 
 ## Installation
 Follow these steps to install dependencies and set up the project:
 
 ```sh
-git clone https://github.com/username/repository.git
-cd repository
+git clone https://github.com/harshcloudanalogy/NirLevyBrainAgent.git
+
 pip install -r requirements.txt
 ```
 
@@ -34,13 +34,13 @@ Here’s a breakdown of the key files involved in the process:
   - `ImageAgent` → Handles image inputs.
 
 ### **4. vlm_agent.py**
-- **Purpose:** Manages vision and language-based processing.
+- **Purpose:** Manages vision and text-based processing.
 - **What it does:**
   - `VLMImageAgent` → Analyzes images.
   - `VLMTextAgent` → Analyzes text.
 
 ### **5. brain.py**
-- **Purpose:** Acts as the "brain" of the system, responsible for decision-making and planning.
+- **Purpose:** Acts as the "brain" (Supervisor) of the system, responsible for decision-making and planning.
 - **What it does:** Generates and refines plans using input data and context from the DataManager.
 
 ### **6. manager.py**
@@ -90,11 +90,11 @@ The **DataManager** builds a **knowledge graph** to store and retrieve informati
 ## Running the Project
 To start the application, run the following command:
 
-Windows (Command Prompt)
+For Windows (Command Prompt)
 ```sh
 venv\Scripts\activate
 ```
-Ubuntu/Linux & macOS (Terminal)
+For Ubuntu/Linux & macOS (Terminal)
 ```sh
 source venv/bin/activate
 ```
