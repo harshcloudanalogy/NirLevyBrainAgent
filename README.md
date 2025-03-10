@@ -1,14 +1,14 @@
 # Project Name
 
 ## Description
-This project is a Python-based application designed to process user inputs (such as text or images) and generate actionable plans. It integrates multiple components, including data management, AI-powered agents, and a task execution manager to efficiently handle commands and automate tasks.
+This project is a Python-based AI agentic application designed to process user inputs (such as text or images) and generate actionable plans. It integrates multiple components, including data management, AI-powered agents, and a task execution manager to efficiently handle commands and automate tasks.
 
 ## Installation
 Follow these steps to install dependencies and set up the project:
 
 ```sh
-git clone https://github.com/username/repository.git
-cd repository
+git clone https://github.com/harshcloudanalogy/NirLevyBrainAgent.git
+
 pip install -r requirements.txt
 ```
 
